@@ -6,13 +6,13 @@ Develop a machine learning model to classify websites as phishing or legitimate 
 
 **Data Preprocessing:**
 
-Exploratory Data Analysis: Basic statistics, feature distributions, missing value analysis.
+Exploratory Data Analysis:  statistics, feature distributions, missing value analysis.
 
 **Data Cleaning:**
 
 1. Dropped features with constant or missing values.
 2. Replaced missing values with NaN.
-3. Dropped features with more than 50% missing values (potential information loss).
+3. Handled features with more than 50% missing values with the mean imputation
 4. Imbalanced Class Handling: Oversampled the minority class (phishing) using SMOTE to address the imbalance.
 
 **Feature Engineering:**
